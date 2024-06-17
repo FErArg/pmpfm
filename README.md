@@ -18,6 +18,9 @@ Como funciona - SIMPLIFICADO
 - Web para incorporar nuevos enlaces al listado youtubeLinks.db
 - Generar resumen del audio para incorporar como descripción del "capítulo"
 
+# Directorio
+- audios: almacenan los MP3 que se crean desde yt-podcast-01.sh y leen desde para crear el XML desde yt-podcast-02.sh
+- audios-tmp: directorio que utiliza yt-podcast-01.sh como temporal de archivos de descarga
 
 # Soft necesario
 - sudo apt-get install youtube-dl OR pip install youtube-dl
