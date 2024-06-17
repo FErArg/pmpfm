@@ -23,7 +23,9 @@ Como funciona - SIMPLIFICADO
 - audios-tmp: directorio que utiliza yt-podcast-01.sh como temporal de archivos de descarga
 
 # Soft necesario
-- sudo apt-get install youtube-dl OR pip install youtube-dl
+- youtube-dl
+	- https://github.com/yt-dlp/yt-dlp
+	- sudo apt-get install youtube-dl OR pip install youtube-dl
 - sudo apt-get install mp3info
 - Install phantomjs
 	- sudo apt-get install build-essential chrpath libssl-dev libxft-dev
