@@ -47,7 +47,7 @@ do
 			echo "<title>$post_id</title>" >> blog.xml 
 			echo "<link>$podcast_directory</link>" >> blog.xml 
 			echo "<enclosure url=\"$podcast_directory/$filename\" type=\"audio/mpeg\" length=\"$post_length\"/>" >> blog.xml 
-			echo "<description>$post_description<description>" >> blog.xml 
+			echo "<description>$post_description</description>" >> blog.xml 
 			echo "<pubDate>$post_pubdate</pubDate>" >> blog.xml 
 		echo '</item>' >> blog.xml 
 	fi 
