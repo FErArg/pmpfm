@@ -33,7 +33,7 @@ do
 		post_id="${filename//audios}"
 		post_id="${post_id///}"
 		post_id="${post_id//.mp3}"
-		post_description=""
+		post_description="EMPTY"
 		
 		# Get MP3 length
 		post_length=$(mp3info -p "%S\n" $filename | awk 'BEGIN { s = 0 }; { s = s + $1 }; END { print s }')

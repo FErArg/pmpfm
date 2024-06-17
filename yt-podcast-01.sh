@@ -29,3 +29,5 @@ while IFS= read -r line; do
 	fi
 
 done < $fileDownload
+
+cd ..
