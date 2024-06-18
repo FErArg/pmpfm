@@ -43,7 +43,7 @@ Solución simple para generar un Feed de Podcast de videos que interese escuchar
 	- sudo tar xvjf phantomjs-2.1.1-linux-x86_64.tar.bz2 -C /usr/local/share/
 	- sudo ln -sf /usr/local/share/phantomjs-2.1.1-linux-x86_64/bin/phantomjs /usr/local/bin/
 
-# El archivo "podcast.xml" es solo una ejemplo del resultado de ejecutar el script "02-xml-creator.sh"
+# El archivo "podcast.xml" es solo un ejemplo de ejecutar el script "02-xml-creator.sh"
 
 ---
 
