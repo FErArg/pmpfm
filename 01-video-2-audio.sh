@@ -1,33 +1,39 @@
-#!/bin/bash 
+#!/bin/bash
+. /root/scripts/./funciones.lib
 
-# Constantes
-fileDownload="../youtubeLinks.db"
+#Constantes
+fileDownload="/var/www/html/youtubeLinks.db"
+audios_tmp="/tmp/audios-tmp"
+audios="/var/www/html/podcast/audios"
+tmpfile="/tmp/yt-download.tmp"
 
-cd audios-tmp
+chown www-data:www-data $origen
+
+# mkdir $audios
+# mkdir $audios_tmp
+
+cd $audios_tmp
 
 while IFS= read -r line; do
-    # Extract name from video
-	filename=$(yt-dlp --get-filename $line)
-	filename="${filename//.webm}"
-	filename=$(echo $filename | sed 's/[^a-zA-Z0-9]/_/g')
-	filename=$(echo $filename | sed 's/__/_/g')
+        #echo $line
+        filename=$(yt-dlp --get-filename $line)
+        filename="${filename//.webm}"
+        filename=$(echo $filename | sed 's/[^a-zA-Z0-9]/_/g')
+        filename=$(echo $filename | sed 's/__/_/g')
 
-	# Extract audio from youtube video
-    #yt-dlp --no-part --no-overwrites --ignore-errors --abort-on-error --restrict-filenames --extract-audio --audio-format mp3 --audio-quality 0 $line
-	yt-dlp --extract-audio --audio-format mp3 -o $filename $line
+        # extract audio from youtube video
+        yt-dlp --extract-audio --audio-format mp3 --output --restrict-filenames -o $filename $line >> $log
 
-    # check if file exist and move to audio
-	FILE="$filename.mp3"
-	if [ -f "$FILE" ]; then
-		echo "$FILE exists."
-		mv $FILE ../audios/
+        FILE="$filename.mp3"
+        if [ -f "$FILE" ]; then
+                echo "$FILE exists."
+                mv $FILE $audios/
 
-		# Remove video link line from archive
-		grep -v $line $fileDownload > tmpfile && mv tmpfile $fileDownload
-	else 
-		echo "$FILE does not exist."
-	fi
-
+                # remove line from archive
+                grep -v $line $fileDownload > $tmpfile && mv $tmpfile $fileDownload
+        else
+                echo "$FILE does not exist."
+        fi
 done < $fileDownload
 
-cd ..
+cd $audios
