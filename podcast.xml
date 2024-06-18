@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:googleplay="https://www.google.com/schemas/play-podcasts/1.0" xmlns:atom="https://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss" version="2.0" xml:lang="es-es">
+<channel>
+<title>FErArg's PodCast</title>
+<itunes:owner>
+<itunes:email>ferarg@ferarg.com</itunes:email>
+</itunes:owner>
+<itunes:author>FErArg</itunes:author>
+<description>Podcast FErArg con cositas variadas</description>
+<itunes:image href="https://www.ferarg.com/logo.png" />
+<language>es-ES</language>
+<link>https://www.ferarg.com</link>
+<itunes:category text="Various">
+<itunes:category text="Personal"/>
+</itunes:category>
+<itunes:explicit>false</itunes:explicit>
+<url>https://www.ferarg.com/logo.png</url>
+<image>
+<url>https://www.ferarg.com/logo.png</url>
+</image>
+<atom:link href="https://www.ferarg.com/podcast/podcast.xml" rel="self" type="application/rss+xml"/>
+
+<item>
+<title>Berto Romero  El Sentido De La Birra  24 JSTfBIZHB4o </title>
+<itunes:episodeType>fulltrailer</itunes:episodeType>
+<itunes:title>Berto Romero  El Sentido De La Birra  24 JSTfBIZHB4o </itunes:title>
+<description>EMPTY</description>
+<enclosure url="https://www.ferarg.com/podcast/audios/Berto_Romero__El_Sentido_De_La_Birra__24_JSTfBIZHB4o_.mp3" type="audio/mpeg" length="5647"/>
+<guid></guid>
+<pubDate>Fri, 05 Apr 2024 09:19:29 GMT</pubDate>
+<itunes:duration>5647</itunes:duration>
+<itunes:explicit>true</itunes:explicit>
+</item>
+<item>
+<title>Carlos Areces Cómico Actor y Espejo  ESDLB con Ricardo Moya 208 cHo5IQ9HDH8 </title>
+<itunes:episodeType>fulltrailer</itunes:episodeType>
+<itunes:title>Carlos Areces Cómico Actor y Espejo  ESDLB con Ricardo Moya 208 cHo5IQ9HDH8 </itunes:title>
+<description>EMPTY</description>
+<enclosure url="https://www.ferarg.com/podcast/audios/Carlos_Areces_Cómico_Actor_y_Espejo__ESDLB_con_Ricardo_Moya_208_cHo5IQ9HDH8_.mp3" type="audio/mpeg" length="11524"/>
+<guid></guid>
+<pubDate>Sat, 17 Feb 2024 22:32:05 GMT</pubDate>
+<itunes:duration>11524</itunes:duration>
+<itunes:explicit>true</itunes:explicit>
+</item>
+<item>
+<title> De dónde viene el EUSKERA  Rb1YXd lKpQ </title>
+<itunes:episodeType>fulltrailer</itunes:episodeType>
+<itunes:title> De dónde viene el EUSKERA  Rb1YXd lKpQ </itunes:title>
+<description>EMPTY</description>
+<enclosure url="https://www.ferarg.com/podcast/audios/_De_dónde_viene_el_EUSKERA__Rb1YXd_lKpQ_.mp3" type="audio/mpeg" length="764"/>
+<guid></guid>
+<pubDate>Sun, 16 Jun 2024 11:49:05 GMT</pubDate>
+<itunes:duration>764</itunes:duration>
+<itunes:explicit>true</itunes:explicit>
+</item>
+<item>
+<title> El espa ol de Anya Taylor Joy    Características del espa ol de Argentina TsRALoSx7Qc </title>
+<itunes:episodeType>fulltrailer</itunes:episodeType>
+<itunes:title> El espa ol de Anya Taylor Joy    Características del espa ol de Argentina TsRALoSx7Qc </itunes:title>
+<description>EMPTY</description>
+<enclosure url="https://www.ferarg.com/podcast/audios/_El_espa_ol_de_Anya_Taylor_Joy____Características_del_espa_ol_de_Argentina_TsRALoSx7Qc_.mp3" type="audio/mpeg" length="559"/>
+<guid></guid>
+<pubDate>Mon, 15 Mar 2021 04:54:46 GMT</pubDate>
+<itunes:duration>559</itunes:duration>
+<itunes:explicit>true</itunes:explicit>
+</item>
+<item>
+<title>ENTREVISTA COMPLETA  Jon Sistiaga  El periodismo más extremo  ESDLB con Ricardo Moya  cap 453 jw1NS5sLPKA </title>
+<itunes:episodeType>fulltrailer</itunes:episodeType>
+<itunes:title>ENTREVISTA COMPLETA  Jon Sistiaga  El periodismo más extremo  ESDLB con Ricardo Moya  cap 453 jw1NS5sLPKA </itunes:title>
+<description>EMPTY</description>
+<enclosure url="https://www.ferarg.com/podcast/audios/ENTREVISTA_COMPLETA__Jon_Sistiaga__El_periodismo_más_extremo__ESDLB_con_Ricardo_Moya__cap_453_jw1NS5sLPKA_.mp3" type="audio/mpeg" length="7031"/>
+<guid></guid>
+<pubDate>Sun, 02 Jun 2024 10:41:40 GMT</pubDate>
+<itunes:duration>7031</itunes:duration>
+<itunes:explicit>true</itunes:explicit>
+</item>
+<item>
+<title>ENTREVISTA COMPLETA  Quantum Fracture El calentamiento global  ESDLB con Ricardo Moya  cap 452 rpqLA7VKSrY </title>
+<itunes:episodeType>fulltrailer</itunes:episodeType>
+<itunes:title>ENTREVISTA COMPLETA  Quantum Fracture El calentamiento global  ESDLB con Ricardo Moya  cap 452 rpqLA7VKSrY </itunes:title>
+<description>EMPTY</description>
+<enclosure url="https://www.ferarg.com/podcast/audios/ENTREVISTA_COMPLETA__Quantum_Fracture_El_calentamiento_global__ESDLB_con_Ricardo_Moya__cap_452_rpqLA7VKSrY_.mp3" type="audio/mpeg" length="9537"/>
+<guid></guid>
+<pubDate>Tue, 28 May 2024 02:42:52 GMT</pubDate>
+<itunes:duration>9537</itunes:duration>
+<itunes:explicit>true</itunes:explicit>
+</item>
+<item>
+<title>Javier Cansado El Sentido De La Birra  43 pXKl5BFfobU </title>
+<itunes:episodeType>fulltrailer</itunes:episodeType>
+<itunes:title>Javier Cansado El Sentido De La Birra  43 pXKl5BFfobU </itunes:title>
+<description>EMPTY</description>
+<enclosure url="https://www.ferarg.com/podcast/audios/Javier_Cansado_El_Sentido_De_La_Birra__43_pXKl5BFfobU_.mp3" type="audio/mpeg" length="3262"/>
+<guid></guid>
+<pubDate>Fri, 05 Apr 2024 17:21:24 GMT</pubDate>
+<itunes:duration>3262</itunes:duration>
+<itunes:explicit>true</itunes:explicit>
+</item>
+<item>
+<title>Lejano Este  1 Introducción al podcast Lejano Este KkrSDCakLdY mkv</title>
+<itunes:episodeType>fulltrailer</itunes:episodeType>
+<itunes:title>Lejano Este  1 Introducción al podcast Lejano Este KkrSDCakLdY mkv</itunes:title>
+<description>EMPTY</description>
+<enclosure url="https://www.ferarg.com/podcast/audios/Lejano_Este__1_Introducción_al_podcast_Lejano_Este_KkrSDCakLdY_mkv.mp3" type="audio/mpeg" length="483"/>
+<guid></guid>
+<pubDate>Sat, 03 Aug 2019 16:14:08 GMT</pubDate>
+<itunes:duration>483</itunes:duration>
+<itunes:explicit>true</itunes:explicit>
+</item>
+<item>
+<title>Miguel Maldonado Humorista Murciano Máquina  ESDLB con Ricardo Moya 150 Zr9hs YA11M </title>
+<itunes:episodeType>fulltrailer</itunes:episodeType>
+<itunes:title>Miguel Maldonado Humorista Murciano Máquina  ESDLB con Ricardo Moya 150 Zr9hs YA11M </itunes:title>
+<description>EMPTY</description>
+<enclosure url="https://www.ferarg.com/podcast/audios/Miguel_Maldonado_Humorista_Murciano_Máquina__ESDLB_con_Ricardo_Moya_150_Zr9hs_YA11M_.mp3" type="audio/mpeg" length="6973"/>
+<guid></guid>
+<pubDate>Mon, 08 Mar 2021 22:08:39 GMT</pubDate>
+<itunes:duration>6973</itunes:duration>
+<itunes:explicit>true</itunes:explicit>
+</item>
+<item>
+<title>Raúl Cimas Anfitrión del Humor  ESDLB con Ricardo Moya 179 0fx6YW8zZ1A </title>
+<itunes:episodeType>fulltrailer</itunes:episodeType>
+<itunes:title>Raúl Cimas Anfitrión del Humor  ESDLB con Ricardo Moya 179 0fx6YW8zZ1A </itunes:title>
+<description>EMPTY</description>
+<enclosure url="https://www.ferarg.com/podcast/audios/Raúl_Cimas_Anfitrión_del_Humor__ESDLB_con_Ricardo_Moya_179_0fx6YW8zZ1A_.mp3" type="audio/mpeg" length="6297"/>
+<guid></guid>
+<pubDate>Sun, 13 Jun 2021 22:05:54 GMT</pubDate>
+<itunes:duration>6297</itunes:duration>
+<itunes:explicit>true</itunes:explicit>
+</item>
+</channel>
+</rss>

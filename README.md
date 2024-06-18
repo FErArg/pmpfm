@@ -43,6 +43,8 @@ Solución simple para generar un Feed de Podcast de videos que interese escuchar
 	- sudo tar xvjf phantomjs-2.1.1-linux-x86_64.tar.bz2 -C /usr/local/share/
 	- sudo ln -sf /usr/local/share/phantomjs-2.1.1-linux-x86_64/bin/phantomjs /usr/local/bin/
 
+# El archivo "podcast.xml" es solo una ejemplo del resultado de ejecutar el script "02-xml-creator.sh"
+
 ---
 
 # ENGLISH
@@ -84,3 +86,5 @@ Simple solution to generate a Podcast Feed of videos you are interested in liste
 	- wget https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.1.1-linux-x86_64.tar.bz2
 	- sudo tar xvjf phantomjs-2.1.1-linux-x86_64.tar.bz2 -C /usr/local/share/
 	- sudo ln -sf /usr/local/share/phantomjs-2.1.1-linux-x86_64/bin/phantomjs /usr/local/bin/
+
+# The "podcast.xml" file is only an example of executing the script "02-xml-creator.sh"
