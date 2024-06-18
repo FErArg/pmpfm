@@ -1,29 +1,32 @@
 # pmpfm
+
 Poor Man Podcast Feed Maker
+
 
 # CASTELLANO
 
-Solución simple para generar un Feed de Podcast de videos que interese escuchar como podcast
+Solución simple para generar un Feed de Podcast de videos que interese escuchar como podcast.
+
 
 ## Como funciona - SIMPLIFICADO
 
-- En el archivo youtubeLinks.db almacena el listado de vídeos de Youtube a descargar
+- En el archivo youtubeLinks.db almacena el listado de vídeos de Youtube a descargar.
 
-- El script 01-video-2-audio.sh descarga el audio en formato MP3 del vídeo y mueve el archivo MP3 al directorio audios y actualiza el listado de videos de youtubeLinks.db
+- El script 01-video-2-audio.sh descarga el audio en formato MP3 del vídeo y mueve el archivo MP3 al directorio "audios", a continuación actualiza el listado de videos de youtubeLinks.db.
 
-- El script 02-xml-creator.sh genera un XML de feed de podcast
+- El script 02-xml-creator.sh genera un XML de feed de podcast.
 
 
 # Pendiente
 
-- Web para incorporar nuevos enlaces al listado youtubeLinks.db
-- Generar resumen del audio para incorporar como descripción del "capítulo"
+- Web para incorporar nuevos enlaces al listado youtubeLinks.db.
+- Generar resumen del audio para incorporar como descripción del "capítulo".
 
 
 # Directorio
 
-- audios: almacenan los MP3 que se crean desde yt-podcast-01.sh y leen desde para crear el XML desde 02-xml-creator.sh
-- audios-tmp: directorio que utiliza yt-podcast-01.sh como temporal de archivos de descarga
+- audios: almacenan los MP3 que se crean desde yt-podcast-01.sh y leen desde para crear el XML desde 02-xml-creator.sh.
+- audios-tmp: directorio que utiliza yt-podcast-01.sh como temporal de archivos de descarga.
 
 
 # Soft necesario
@@ -43,13 +46,15 @@ Solución simple para generar un Feed de Podcast de videos que interese escuchar
 ---
 
 # ENGLISH
+
 Simple solution to generate a Podcast Feed of videos you are interested in listening to as a podcast
+
 
 ## How it works - SIMPLIFIED
 
 - In the file youtubeLinks.db stores the list of Youtube videos to download.
 
-- The script 01-video-2-audio.sh downloads the audio in MP3 format from the video and moves the MP3 file to the audios directory and updates the list of videos in youtubeLinks.db.
+- The script 01-video-2-audio.sh downloads the audio in MP3 format from the video and moves the MP3 file to the "audios" directory, then updates the list of videos in youtubeLinks.db.
 
 - The script 02-xml-creator.sh generates an XML podcast feed
 
