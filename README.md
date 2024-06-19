@@ -16,10 +16,13 @@ Solución simple para generar un Feed de Podcast de videos que interese escuchar
 
 - El script 02-xml-creator.sh genera un XML de feed de podcast.
 
+- Accediendo desde el navegador a la URL donde se aloja el directorio de la aplicación, el archivo "index.php" muestra un campo para agregar nuevos enlaces, ademas de mostrar un listado de los enlaces que aún no se han descargado
+
 
 # Pendiente
 
-- Web para incorporar nuevos enlaces al listado youtubeLinks.db.
+- Comprobar que los nuevos enlaces agregados desde la web son seguros
+- Agregar validación de usuario para ingresar al index.php 
 - Generar resumen del audio para incorporar como descripción del "capítulo".
 
 
@@ -60,10 +63,12 @@ Simple solution to generate a Podcast Feed of videos you are interested in liste
 
 - The script 02-xml-creator.sh generates an XML podcast feed
 
+- Accessing from web browser, index.php shows a field to add new links, and undes that form, shows a list of links not yet downloaded
 
 # Pending
 
-- Web to add new links to the youtubeLinks.db list.
+- Check new links are secure
+- Add some login to use the index.php
 - Generate audio summary to incorporate as "chapter" description
 
 
