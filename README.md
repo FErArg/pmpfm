@@ -22,7 +22,7 @@ Solución simple para generar un Feed de Podcast de videos que interese escuchar
 # Pendiente
 
 - Comprobar que los nuevos enlaces agregados desde la web son seguros
-- Agregar validación de usuario para ingresar al index.php 
+~~- Agregar validación de usuario para ingresar al index.php~~
 - Generar resumen del audio para incorporar como descripción del "capítulo".
 
 
@@ -68,7 +68,7 @@ Simple solution to generate a Podcast Feed of videos you are interested in liste
 # Pending
 
 - Check new links are secure
-- Add some login to use the index.php
+~~- Add some login to use the index.php~~
 - Generate audio summary to incorporate as "chapter" description
 
 
