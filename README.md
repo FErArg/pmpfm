@@ -46,7 +46,12 @@ Solución simple para generar un Feed de Podcast de videos que interese escuchar
 
 - Web Server (testeado en Apache2/DEBIAN 12 y Apache2/Ubuntu 20.04/22.04/24.04)
 - youtube-dl
-	- https://github.com/yt-dlp/yt-dlp 
+	- https://github.com/yt-dlp/yt-dlp
+	- Example Installation:
+      		- sudo su
+		- cd /usr/local/bin
+    		- wget https://github.com/yt-dlp/yt-dlp/releases/download/2024.07.09/yt-dlp
+    		- chmod +x /usr/local/bin/yt-dlp
 	- ~~sudo apt-get install youtube-dl OR pip install youtube-dl~~
 - sudo apt-get install mp3info
 - Install phantomjs
@@ -104,6 +109,11 @@ Simple solution to generate a Podcast Feed of videos you are interested in liste
 - Web Server (tested in Apache2)
 - youtube-dl
 	- https://github.com/yt-dlp/yt-dlp
+ 	- Example Installation:
+      		- sudo su
+		- cd /usr/local/bin
+    		- wget https://github.com/yt-dlp/yt-dlp/releases/download/2024.07.09/yt-dlp
+    		- chmod +x /usr/local/bin/yt-dlp
 	- ~~sudo apt-get install youtube-dl OR pip install youtube-dl~~
 - sudo apt-get install mp3info
 - Install phantomjs
